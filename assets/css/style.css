@@ -17,7 +17,6 @@ h2 {
     font-size: 250%;
     font-family: fantasy;
     letter-spacing: 1px;
-    padding: 15px;
     text-align: center;
 }
 
@@ -52,51 +51,51 @@ h4 {
 
 
 /*main image */
+#main-image{
+    background: url('../images/main-image.jpg') no-repeat;
+    background-size: 100% 100%;
+    height: 800px;
+    width: 100%;
 
-#main-image p {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 20px;
-    font-family: bebas neue;
-    font-size: 240%;
-    text-align: center;
-    overflow: hidden;
-    width: 15%;
-    height: 30%;
-    position: absolute;
-    right: 20%;
-    bottom: 10%;
 }
 
 /* about us section */ 
 
+#about-us-title{
+    background-color: #5a5a44;
+    color: white;
+    margin: 0%;
+    padding-top: 30px;
+    font-size: 250%;
+}
+    
+
+
 #about-us {
    background: #5a5a44;
-   height: 700px;
+   height: 600px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
   
+}
+
+#about-us-image{
+    width: 45%;
+    height: 80%;
+    background: url(../images/about-us-image.png);
+    background-size: 100% 100%;
+    
 }
 
 #about-us h2 {
     color: white;
 }
 
-
-#about-us-image {
-    background: url(../images/about-image.WebP) no-repeat;
-    background-size: 100% 100%;
-    height: 70%;
-    width: 45%;
-    float: left;
-    margin-left: 3%;
-}
-
 #about-us-text {
-    height: 70%;
+    height: 80%;
     width: 45%;
     border: 2px solid white;
-    float: right;
-    margin-right: 3%;
-    margin-left: 3%;
    
 }
 
@@ -244,7 +243,7 @@ h4 {
     margin-left: 5%;
     margin-right: 5%;
     top: 10%;
-    background: url('../images/kayak-image.WebP') no-repeat;
+    background: url('../images/kayak-image.jpg') no-repeat;
     background-size: 100% 100%;
     
 }
@@ -253,7 +252,7 @@ h4 {
     position: absolute;
     width: 42.5%;
     margin-left: 5%;
-    bottom: 10%;
+    bottom: 5%;
     font-family: sans-serif;
     font-size: 120%;
     color: white;
@@ -276,7 +275,7 @@ h4 {
     position: absolute;
     right: 0;
     top: 10%;
-    background: url('../images/canoe-image.WebP') no-repeat;
+    background: url('../images/canoe-image.jpg') no-repeat;
     background-size: 100% 100%;
 }
 
@@ -285,7 +284,7 @@ h4 {
     right: 5%;
     width: 42.5%;
     margin-left: 5%;
-    bottom: 10%;
+    bottom: 5%;
     font-family: sans-serif;
     font-size: 120%;
     color: white;
@@ -309,7 +308,7 @@ h4 {
     margin-right: 5%;
     position: absolute;
     top: 10%;
-    background: url('../images/archery-image.WebP') no-repeat;
+    background: url('../images/archery.jpg') no-repeat;
     background-size: 100% 100%;
 }
 
@@ -341,7 +340,7 @@ h4 {
     right: 0%;
     position: absolute;
     top: 10%;
-    background: url('../images/rockclimbing-image.WebP') no-repeat;
+    background: url('../images/rockclimbing.jpg') no-repeat;
     background-size: 100% 100%;
 }
 
